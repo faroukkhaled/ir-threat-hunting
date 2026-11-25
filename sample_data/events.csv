@@ -1,0 +1,17 @@
+time,host,user,event_id,image,parent_image,command_line,target,source_ip
+2026-03-01T09:00:01,WS01,alice.hr,1,C:\Windows\explorer.exe,C:\Windows\System32\userinit.exe,explorer.exe,,
+2026-03-01T09:14:10,WS01,alice.hr,1,C:\Program Files\Microsoft Office\WINWORD.EXE,C:\Windows\explorer.exe,WINWORD.EXE invoice.docm,,
+2026-03-01T09:14:32,WS01,alice.hr,1,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,C:\Program Files\Microsoft Office\WINWORD.EXE,powershell.exe -nop -w hidden -enc SQBFAFgAIAAoAE4AZQB3AC0ATwBiAGoAZQBjAHQA,,
+2026-03-01T09:15:02,WS01,alice.hr,3,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,,,203.0.113.50:4444,10.0.0.21
+2026-03-01T09:20:45,WS01,alice.hr,13,C:\Users\alice.hr\AppData\Local\Temp\upd.exe,,,HKCU\Software\Microsoft\Windows\CurrentVersion\Run\Updater,
+2026-03-01T09:31:00,WS01,alice.hr,10,C:\Users\alice.hr\AppData\Local\Temp\upd.exe,,,C:\Windows\System32\lsass.exe,
+2026-03-01T09:40:12,DC01,svc-sql,4769,,,,MSSQLSvc/sql01.lab.local:1433 enc=0x17,10.0.0.21
+2026-03-01T09:40:13,DC01,svc-sql,4769,,,,MSSQLSvc/sql01.lab.local:1433 enc=0x17,10.0.0.21
+2026-03-01T09:40:14,DC01,svc-sql,4769,,,,MSSQLSvc/sql01.lab.local:1433 enc=0x17,10.0.0.21
+2026-03-01T10:05:00,DC01,bob.finance,4625,,,,,10.0.0.21
+2026-03-01T10:05:01,DC01,bob.finance,4625,,,,,10.0.0.21
+2026-03-01T10:05:02,DC01,bob.finance,4625,,,,,10.0.0.21
+2026-03-01T10:05:03,DC01,bob.finance,4625,,,,,10.0.0.21
+2026-03-01T10:05:04,DC01,bob.finance,4625,,,,,10.0.0.21
+2026-03-01T10:05:09,DC01,bob.finance,4624,,,,,10.0.0.21
+2026-03-01T10:30:00,DC01,carol.it,1,C:\Windows\System32\net.exe,C:\Windows\System32\cmd.exe,net user backdoor P@ss /add,,
