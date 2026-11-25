@@ -2,7 +2,7 @@ import argparse
 import json
 import sys
 
-from . import case as case_mod, hunts, iocs, report, scoring, simulate, timeline, tree
+from . import case as case_mod, hunts, iocs, otrf, report, scoring, simulate, timeline, tree
 from .models import load_events
 
 
@@ -102,6 +102,17 @@ def cmd_case(a):
     return 0
 
 
+def cmd_import_otrf(a):
+    if a.file:
+        with open(a.file, encoding="utf-8") as fh:
+            rows = otrf.convert_lines(fh)
+    else:
+        rows = otrf.fetch(a.dataset)
+    otrf.write_csv(rows, a.out)
+    print("wrote %d events to %s" % (len(rows), a.out))
+    return 0
+
+
 def main(argv=None):
     p = argparse.ArgumentParser(prog="irforge")
     sub = p.add_subparsers(dest="cmd", required=True)
@@ -141,6 +152,11 @@ def main(argv=None):
     s.add_argument("--case-id", type=int)
     s.add_argument("--text", default="")
     s.set_defaults(fn=cmd_case)
+    s = sub.add_parser("import-otrf", help="convert real OTRF Security-Datasets telemetry to irforge CSV")
+    s.add_argument("--dataset", choices=sorted(otrf.DATASETS), help="download this dataset from GitHub")
+    s.add_argument("--file", help="or convert a local OTRF .json file")
+    s.add_argument("--out", required=True)
+    s.set_defaults(fn=cmd_import_otrf)
     a = p.parse_args(argv)
     return a.fn(a)
 

@@ -66,6 +66,8 @@ def run_key(events, **_):
     """Hypothesis: persistence through a Run key set by a process in a user-writable path."""
     for e in events:
         if e.event_id == 13 and "currentversion\\run" in e.target.lower():
+            if e.exe == "msmpeng.exe":  # Defender writes Run keys when scanning (seen in real OTRF logs)
+                continue
             tmp = "\\temp\\" in e.image.lower() or "\\appdata\\" in e.image.lower()
             yield _f(run_key, [e], "Run key set by %s%s" % (e.exe, " (user-writable path)" if tmp else ""))
 
@@ -73,7 +75,8 @@ def run_key(events, **_):
 @hunt("lsass-access", "T1003.001", "high")
 def lsass_access(events, **_):
     """Hypothesis: credential dumping opens LSASS. FP: AV and EDR agents (allow-list them)."""
-    allow = ("msmpeng.exe", "csrss.exe", "wininit.exe")
+    # svchost.exe was added after running the hunt on real OTRF logs: it opens LSASS during normal logons
+    allow = ("msmpeng.exe", "csrss.exe", "wininit.exe", "svchost.exe")
     for e in events:
         if e.event_id == 10 and e.target.lower().endswith("lsass.exe") and e.exe not in allow:
             yield _f(lsass_access, [e], "%s accessed LSASS" % e.exe)

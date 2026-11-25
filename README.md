@@ -2,7 +2,7 @@
 
 A Python toolkit for hypothesis-driven threat hunting and incident response on Windows event data. Load Sysmon and Windows Security events, run a library of hunts, rebuild process trees, extract indicators, score hosts, track cases and generate an incident report.
 
-Lab and portfolio project. All data is synthetic (documentation IP ranges). Standard library only, Python 3.10+.
+Lab and portfolio project, built with AI assistance. `sample_data/` is synthetic (documentation IP ranges). `real_data/` holds real attack-emulation telemetry from the public OTRF Security-Datasets project (MIT licence), recorded in OTRF's lab. No employer, bank or customer data, and not production IR experience. Standard library only, Python 3.10+.
 
 ## What it does
 | Command | Purpose |
@@ -27,6 +27,14 @@ python3 -m unittest discover -s tests
 ```
 A pre-built report for the sample is in `sample_data/intrusion-report.md`. The original `python3 hunt.py events.csv` still works.
 
+## Running on real telemetry
+```bash
+python3 -m irforge import-otrf --dataset mimikatz_logonpasswords --out /tmp/mimi.csv   # or use the files in real_data/
+python3 -m irforge hunt real_data/lsass_dump_comsvcs.csv
+python3 -m irforge tree real_data/regsvr32_sct_launcher.csv --host WORKSTATION5
+```
+Real logs changed the hunts. `lsass-access` fired on `svchost.exe` (normal during logons) and `run-key-persistence` fired on Defender (`MsMpEng.exe`), so both are now allow-listed. Real LSASS dumps (comsvcs.dll via rundll32, Mimikatz from PowerShell) are still caught, and regsvr32, mshta and bitsadmin show up through `rare-parent-child`. Limits: no hunt targets those LOLBins by command line yet, and Mordor labs are small and clean compared with a real network.
+
 ## Hunts
 Phishing macro (`office-spawns-shell`), `encoded-powershell`, `c2-port`, `run-key-persistence`, `lsass-access`, `kerberoasting`, `brute-force` (higher severity if followed by a success), `new-local-account`, `shadow-copy-delete`, plus statistical hunts:
 
@@ -41,7 +49,7 @@ Add a hunt by writing one function with the `@hunt(name, technique, severity)` d
 CSV or JSON lines with: `time, host, user, event_id, image, parent_image, command_line, target, source_ip` and optional `pid, ppid` (enables exact process trees; otherwise links are inferred and marked approximate). Event ids: 1 process, 3 network, 10 process access, 13 registry, 22 DNS (Sysmon); 4624, 4625, 4720, 4769 (Security).
 
 ## Tests
-21 unit tests cover each hunt on the simulation, near-miss benign cases (no false positives), IOC extraction including nested encoded payloads, tree pruning, scoring, HTML escaping and the case store.
+26 unit tests cover each hunt on the simulation, near-miss benign cases (no false positives), IOC extraction including nested encoded payloads, tree pruning, scoring, HTML escaping and the case store.
 
 ## Layout
 - `irforge/` library and CLI
