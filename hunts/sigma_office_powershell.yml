@@ -1,0 +1,19 @@
+title: Office Application Spawning PowerShell
+status: experimental
+description: Detects PowerShell started by an Office application, common in macro-based phishing.
+logsource:
+  category: process_creation
+  product: windows
+detection:
+  selection:
+    ParentImage|endswith:
+      - '\WINWORD.EXE'
+      - '\EXCEL.EXE'
+      - '\OUTLOOK.EXE'
+    Image|endswith: '\powershell.exe'
+  condition: selection
+level: high
+tags:
+  - attack.execution
+  - attack.t1059.001
+  - attack.t1204.002
