@@ -2,7 +2,7 @@
 
 A Python toolkit for hypothesis-driven threat hunting and incident response on Windows event data. Load Sysmon and Windows Security events, run a library of hunts, rebuild process trees, extract indicators, score hosts, track cases and generate an incident report.
 
-Lab and portfolio project. All data is synthetic (documentation IP ranges). Standard library only, Python 3.9+.
+Lab and portfolio project. All data is synthetic (documentation IP ranges). Standard library only, Python 3.10+.
 
 ## What it does
 | Command | Purpose |
