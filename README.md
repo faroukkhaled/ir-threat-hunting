@@ -60,3 +60,30 @@ CSV or JSON lines with: `time, host, user, event_id, image, parent_image, comman
 
 ## Limitations
 Hunts are heuristics. Thresholds need tuning per environment and the process tree needs pid data to be exact. Not a replacement for an EDR.
+
+## Architecture
+```mermaid
+flowchart LR
+    A["CSV / JSONL events<br/>or OTRF import"] --> B["models.py<br/>normalise events"]
+    B --> C["hunts.py<br/>13 hunts with ATT&CK ids"]
+    C --> D["findings"]
+    D --> E["tree.py process tree"]
+    D --> F["iocs.py IOC extraction"]
+    D --> G["timeline.py kill-chain phases"]
+    D --> H["scoring.py per-host risk"]
+    D --> I["report.py Markdown / HTML"]
+    D --> J["case.py SQLite cases"]
+    K["simulate.py"] --> A
+```
+
+Detection rules with severity and mapping: [docs/DETECTIONS.md](docs/DETECTIONS.md).
+
+## Scope and limits
+**Tested**
+- 26 unit tests (every hunt on the simulation, near-miss benign cases, IOC extraction, tree pruning, scoring, HTML escaping, the case store), including tests on the real OTRF samples. They run in GitHub Actions on push. I ran them locally on 26 Nov 2026: all pass.
+- Hunts against the synthetic intrusion and the seven public OTRF captures in `real_data/`.
+
+**Not tested**
+- production-sized logs, other Windows log sources, noisy enterprise baselines, or any employer data. Process trees need pid data to be exact.
+
+**Licence:** MIT, see `LICENSE`. Security reports: see `SECURITY.md`.
